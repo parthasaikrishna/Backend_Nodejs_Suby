@@ -18,7 +18,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: true })); // for form requests
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Welcome to the Home Page!');
 });
 
