@@ -32,7 +32,7 @@ const firmSchema = new mongoose.Schema({
   },
   image: {
     type: String,
-     required: true,
+     //required: true,
   },
   vendor: [{
       type: mongoose.Schema.Types.ObjectId,
